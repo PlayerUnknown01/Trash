@@ -4,15 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainMenuRight">
+    tools:context=".MainMenuRight"
+    android:background="@drawable/custom_background1"
+    >
 
     <Button
         android:id="@+id/Levels"
-        android:layout_width="360dp"
-        android:layout_height="143dp"
-        android:background="@color/GreenNBlue"
-        android:text="Уровни"
+        android:layout_width="366dp"
+        android:layout_height="149dp"
+        android:background="@drawable/custom_button2"
+        android:singleLine="true"
+        android:text="ИГРАТЬ"
+        android:textAllCaps="false"
+        android:textColor="#e3f2fd"
         android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -24,9 +30,11 @@
         android:id="@+id/Exit"
         android:layout_width="360dp"
         android:layout_height="143dp"
-        android:background="@android:color/holo_red_light"
+        android:background="@drawable/custom_button2"
         android:text="Выход"
+        android:textColor="#e3f2fd"
         android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -38,13 +46,17 @@
         android:id="@+id/Information"
         android:layout_width="360dp"
         android:layout_height="143dp"
-        android:background="@android:color/holo_orange_light"
-        android:text="Информация"
+        android:background="@drawable/custom_button2"
+        android:text="Как играть"
+        android:textColor="#e3f2fd"
         android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

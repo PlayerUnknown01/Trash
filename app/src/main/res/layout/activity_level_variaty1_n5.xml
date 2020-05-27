@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LevelVariaty1N5">
+    tools:context=".LevelVariaty1N5"
+    android:background="@drawable/custom_background1">
 
 
     <Button
         android:id="@+id/MDB"
         android:layout_width="100dp"
         android:layout_height="135dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@drawable/custom_button_blue"
         android:text=" "
         android:textColor="@android:color/holo_orange_light"
         android:textSize="36sp"
@@ -26,7 +27,7 @@
         android:id="@+id/MUB"
         android:layout_width="100dp"
         android:layout_height="135dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@drawable/custom_button_blue"
         android:text=" "
         android:textColor="@android:color/holo_orange_light"
         android:textSize="36sp"
@@ -41,7 +42,7 @@
         android:id="@+id/RDB"
         android:layout_width="100dp"
         android:layout_height="135dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@drawable/custom_button_blue"
         android:text=" "
         android:textColor="@android:color/holo_orange_light"
         android:textSize="36sp"
@@ -56,7 +57,7 @@
         android:id="@+id/RUB"
         android:layout_width="100dp"
         android:layout_height="135dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@drawable/custom_button_blue"
         android:text=" "
         android:textColor="@android:color/holo_orange_light"
         android:textSize="36sp"
@@ -71,7 +72,7 @@
         android:id="@+id/LDB"
         android:layout_width="100dp"
         android:layout_height="135dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@drawable/custom_button_blue"
         android:text=" "
         android:textColor="@android:color/holo_orange_light"
         android:textSize="36sp"
@@ -86,7 +87,7 @@
         android:id="@+id/LUB"
         android:layout_width="100dp"
         android:layout_height="135dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="@drawable/custom_button_blue"
         android:text=" "
         android:textColor="@android:color/holo_orange_light"
         android:textSize="36sp"
@@ -102,7 +103,8 @@
         android:layout_width="343dp"
         android:layout_height="86dp"
         android:text="Нажмите, чтобы начать"
-        android:textColor="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:textColor="#e1f5fe"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,16 +115,17 @@
 
     <Button
         android:id="@+id/EndStelth"
-        android:layout_width="343dp"
-        android:layout_height="196dp"
+        android:layout_width="240dp"
+        android:layout_height="115dp"
         android:background="@android:color/transparent"
         android:enabled="true"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263" />
+        app:layout_constraintVertical_bias="0.409" />
 
     <TextView
         android:id="@+id/Time"

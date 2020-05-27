@@ -24,6 +24,7 @@ import static android.graphics.Color.GREEN;
 import static android.graphics.Color.RED;
 import static android.graphics.Color.WHITE;
 import static android.graphics.Color.YELLOW;
+import static android.graphics.Color.blue;
 import static android.hardware.camera2.params.RggbChannelVector.BLUE;
 import static java.lang.Thread.sleep;
 
@@ -152,10 +153,10 @@ Fsh=1;EndTime=10;Life++;MillisSecScore=0;
                             }
                             // ButNum++;
                         }
-                        LDB.setBackgroundColor(Color.parseColor("#ff8800"));
-                        RDB.setBackgroundColor(Color.parseColor("#99cc00"));
-                        LUB.setBackgroundColor(Color.parseColor("#aa66cc"));
-                        RUB.setBackgroundColor(Color.parseColor("#69e7da"));
+                        LDB.setBackgroundColor(Color.parseColor("#fda416"));//ЖЕЛТЫЙ
+                        RDB.setBackgroundColor(Color.parseColor("#ff3b93"));//розовый
+                        LUB.setBackgroundColor(Color.parseColor("#816cd3"));//фиолетовый
+                        RUB.setBackgroundColor(Color.parseColor("#00B945"));//голубой
                         //сделай setBackground для всех кнопок
                         //     LDB.setEnabled(false);RDB.setEnabled(false);LUB.setEnabled(false);RUB.setEnabled(false);
 
@@ -168,7 +169,7 @@ Fsh=1;EndTime=10;Life++;MillisSecScore=0;
                                             SomeInfo=SomeInfo + ar[i]+" ";
                                             SequenceNum.setText(SomeInfo);
 
-                                            SequenceNum.setTextColor(GREEN);
+                                            SequenceNum.setTextColor(Color.rgb(255,192,0));
 
                                             try {
                                                 Thread.sleep(1000);
